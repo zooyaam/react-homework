@@ -13,11 +13,7 @@
 - [x] 과제를 수행한 GitHub 저장소 주소를 아래 추가합니다.
 </aside>
 
-- 목차
-  [구현할 페이지](https://www.notion.so/Mission-01-e516087f00834010a689be66b56784bb?pvs=21)
-  [폴더 구성](https://www.notion.so/Mission-01-e516087f00834010a689be66b56784bb?pvs=21)
-  [구현 내용 정리](https://www.notion.so/Mission-01-e516087f00834010a689be66b56784bb?pvs=21)
-  [회고](https://www.notion.so/Mission-01-e516087f00834010a689be66b56784bb?pvs=21)
+<br/>
 
 ## 📺 구현할 페이지
 
@@ -25,21 +21,20 @@
 
 ### [sunfish-EUID](https://github.com/FRONTENDSCHOOL8/sunfish-EUID) : myProfile 페이지
 
-![Untitled](Mission-01%20e516087f00834010a689be66b56784bb/Untitled.png)
+<img width="728" alt="image" src="https://github.com/zooyaam/react-homework/assets/125597330/d35736b4-8746-434a-8265-06d68d0873ac">
 
-![Untitled](Mission-01%20e516087f00834010a689be66b56784bb/Untitled%201.png)
+
+<br/>
+<br/>
 
 ## 📁 폴더 구성
 
 ---
 
-처음에 갈피를 못 잡아서 틀을 잡아놓고 시작을 했다.
+<img width="571" alt="image" src="https://github.com/zooyaam/react-homework/assets/125597330/732b4e12-c746-4025-aba0-9c8462a42ea7">
 
-![IMG_7173.heic](Mission-01%20e516087f00834010a689be66b56784bb/IMG_7173.heic)
-
-틀을 토대로 폴더 구성!
-
-![Untitled](Mission-01%20e516087f00834010a689be66b56784bb/Untitled%202.png)
+<br/>
+<br/>
 
 ## 📎 구현 내용 정리
 
