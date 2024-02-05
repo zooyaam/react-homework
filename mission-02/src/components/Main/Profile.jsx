@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Profile() {
   return (
     <section className="pt-[1.125rem] px-3">

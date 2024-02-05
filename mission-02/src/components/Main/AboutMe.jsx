@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function AboutMe() {
   return (
     <section id="aboutMe" className="border-t-[5px] border-gray-200">

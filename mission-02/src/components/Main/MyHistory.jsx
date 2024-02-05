@@ -1,6 +1,7 @@
-import React from "react";
+import mannerData from "../../data/mannerData.json";
 
 export default function MyHistory() {
+  const nonZero = mannerData.manners.filter((manner) => manner.count !== 0);
   return (
     <section className="border-t-[5px] border-gray-200">
       <h2 className="sr-only">나의 활동 목록</h2>
@@ -39,24 +40,17 @@ export default function MyHistory() {
             aria-label="내가 받은 매너 평가 목록"
             className="py-[14px] px-3 absolute top-full left-0"
           >
-            <div className="bg-people_black-icon bg-no-repeat flex gap-[9px] mb-3">
-              <span className="text-label-md ml-6">10</span>
-              <span className="text-paragraph-md bg-blue-100 p-2 rounded-[0_8px_8px_8px]">
-                시간 약속을 잘 지켜요.
-              </span>
-            </div>
-            <div className="bg-people_black-icon bg-no-repeat flex gap-[16px] mb-3">
-              <span className="text-label-md ml-6">9</span>
-              <span className="text-paragraph-md bg-blue-100 p-2 rounded-[0_8px_8px_8px]">
-                친절하고 매너가 좋아요
-              </span>
-            </div>
-            <div className="bg-people_black-icon bg-no-repeat flex gap-[16px]">
-              <span className="text-label-md ml-6">8</span>
-              <span className="text-paragraph-md bg-blue-100 p-2 rounded-[0_8px_8px_8px]">
-                제가 있는 곳까지 와서 거래했어요.
-              </span>
-            </div>
+            {nonZero.map(({ count, type }) => (
+              <div
+                key={type}
+                className="bg-people_black-icon bg-no-repeat flex gap-[9px] mb-3"
+              >
+                <span className="text-label-md ml-6">{count}</span>
+                <span className="text-paragraph-md bg-blue-100 p-2 rounded-[0_8px_8px_8px]">
+                  {type}
+                </span>
+              </div>
+            ))}
           </div>
         </li>
         <li className="absolute w-full top-[315px] h-12 hover:bg-gray-100 hover:rounded transition-all duration-300 border-t-[1px] border-gray-200">
